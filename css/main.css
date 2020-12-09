@@ -32,7 +32,7 @@ html {
 }
 
 .app-icon {
-    background-image: url("/ico-app.jpg");
+    background-image: url("/app-ico.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     width: 132px;
