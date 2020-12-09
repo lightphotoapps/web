@@ -1,0 +1,107 @@
+html {
+    background-color: #fafafa;
+    font-family: "PT Sans", Helvetica, sans-serif;
+}
+
+.centered {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark {
+    background-color: #070d12;
+}
+
+.text-page-margin {
+    margin: 10%;
+}
+
+.container {
+    background: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.margin-to-icon {
+    margin: 2em 0 0;
+}
+
+.app-icon {
+    background-image: url("/ico-app.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 132px;
+    height: 132px;
+    display: block;
+}
+
+h1.app-title {
+    font-size: 26pt;
+    font-weight: normal;
+    color: #404040;
+    margin: 0.8em 0 0;
+    letter-spacing: -1.7pt;
+}
+
+h3.app-subtitle {
+    font-size: 12pt;
+    font-weight: normal;
+    color: #808080;
+    margin: 0.2em 0 2.5em;
+    letter-spacing: -0.5pt;
+}
+
+a.app-store {
+    background-image: url("/btn-app-store@2x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 180px;
+    height: 60px;
+    margin: 0 0 0.75em;
+    border-radius: 9px;
+    z-index: 1;
+
+    transition: all .4s cubic-bezier(0.145, 0.530, 0.390, 0.995);
+}
+
+a.large {
+    background-color: #eaeaea;
+    border-radius: 9px;
+    
+    color: #404040;
+    
+    font-size: 12pt;
+    font-weight: bold;
+    text-decoration: none;
+    
+    width: 180px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    transition: all .4s cubic-bezier(0.145, 0.530, 0.390, 0.995);
+}
+
+a.app-store:hover {
+    box-shadow: 0 1em 2em 0 rgba(0, 0, 0, 0.15);
+    transform: scale(1.05);
+}
+
+a.large:hover {
+    box-shadow: 0 1em 2em 0 rgba(0, 0, 0, 0.02);
+    transform: scale(1.05);
+}
+
+p.copyrights {
+    margin: 2.5em 0 0;
+    color: #808080;
+    font-size: 9pt;
+    letter-spacing: -0.5pt;
+}
