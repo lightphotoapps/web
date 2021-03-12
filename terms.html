@@ -30,7 +30,17 @@
         height: 30px;
     }
     body { height: 100%; }
-    iframe { width: 1200px; height: 100%; border: 0; }
+   
+    iframe { width: 800px; height: 100%; border: 0; }
+    
+    @media only screen and (max-width: 400px) {
+      iframe { width: 300px; }
+    }
+    
+    @media only screen and (max-width: 800px) {
+      iframe { width: 600px; }
+    }
+    
 </style>
 
 <body>
